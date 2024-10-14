@@ -1,0 +1,20 @@
+{
+  "name": "webpage-server",
+  "version": "1.0.0",
+  "description": "Tats Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run scss & npm run auto-reload && fg",
+    "auto-reload": "browser-sync start --server --directory --files \"**/*\"",
+    "scss": "sass --watch scss/0.main.scss css/style.css && fg"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "sass": "^1.77.8"
+  },
+  "dependencies": {
+    "fontawesome-free": "^1.0.4"
+  }
+}
