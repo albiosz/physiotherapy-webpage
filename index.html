@@ -9,6 +9,9 @@
     <meta name="description" content="Gabinet Terapii Kręgosłupa - Hubert Szulc">
     <meta name="keywords" content="">
     <title>Hubert Szulc - Fizjoterapia</title>
+    
+    <!-- dependencies -->
+    
     <!-- Bootstrap -->
     <link href="css/dependencies/bootstrap-5.3.3.min.css" rel="stylesheet">
     <!-- Google Fonts -->
@@ -16,6 +19,11 @@
     <!-- Font Awesome -->
     <!-- <link href="css/dependencies/font-awesome.min.css" rel="stylesheet"> -->
     <script src="https://kit.fontawesome.com/c0f6372ea1.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="dependencies/responsive-nav.js/responsive-nav.css">
+	<script src="dependencies/responsive-nav.js/responsive-nav.js"></script>
+
+
     <!-- Style -->
     <link href="css/style.css" rel="stylesheet">
     <!-- <link href="css/original-style.css" rel="stylesheet">  -->
@@ -32,48 +40,53 @@
     <div class="header-top">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="top-text text-end">
-                        <span class="text-block call-block">
-                            Rejestracja telefoniczna: <br>
-                            <a class="call-no" href="tel:+48 603 774 669"><i class="fa fa-phone"></i> +48 603 774 669</a>
-                        </span>
-                    </div>
+                <div class="col-8">
+                    <!-- Gabinet fizjoterapii i terapii manualnej  -->
+                </div>
+                <div class="top-text text-end col-4">
+                    <span class="text-block call-block">
+                        Rejestracja telefoniczna: <br>
+                        <a class="call-no" href="tel:+48 603 774 669"><i class="fa fa-phone"></i> +48 603 774 669</a>
+                    </span>
                 </div>
             </div>
         </div>
     </div>
     <header class="container">
-        <div class="row">
-            <div class="col-sm-4 col-12">
-                <a href="index.html"><img src="images/logo.png" alt=""></a>
+        <nav class="row">
+            <div class="col-12 col-lg-5 col-xl-4 logo">
+                <a href="#"><img src="img/logo.png" alt="" height="65px"></a>
             </div>
-            <nav class="col-sm-8 col-12">
-                <ul>
-                    <li><a href="service-list.html" title="Oferta">Oferta</a></li>
-                    <li><a href="blog-default.html" title="O mnie">O mnie</a></li>
-                    <li><a href="contact.html" title="Kontakt">Kontakt</a></li>
+            <div class="col-12 col-lg-7 col-xl-8 menu">
+                <ul class="row justify-content-center">
+                    <li class="col-6 col-md-3" ><a href="service-list.html" title="Oferta"><i class="fa-solid fa-list"></i> Oferta</a></li>
+                    <li class="col-6 col-md-3"><a href="blog-default.html" title="O mnie"><i class="fa-solid fa-user-doctor"></i> O mnie</a></li>
+                    <li class="col-6 col-md-3"><a href="contact.html" title="Kontakt"><i class="fa fa-phone"></i> Kontakt</a></li>
+                    <li class="col-6 col-md-3"><a href="contact.html" title="Kontakt"><i class="fa-solid fa-location-dot"></i> Dojazd</a></li>
+    
                 </ul>
             </div>
-        </div>
+        </nav>
     </header>
     <div class="hero-section">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-5">
-                    <h1 class="hero-title">Moja pasja <br> Wspólna terapia <br> Twoje zdrowie</h1>
+                <div class="col-12 col-md-5 order-md-1">
+                    <img src="./img/tata/narrow4.jpg" alt="" class="img-responsive" width="100%">
                 </div>
-                <div class="col-12 col-md-7">
-                    <img src="./images/tata/s.jpg" alt="" class="img-responsive" width="100%">
+                <div class="col-12 col-md-7 order-md-0 hero-text">
+                    <p class="small">Moja pasja</p>
+                    <p class="medium">Wspólna terapia</p>
+                    <p class="large">Twoje zdrowie</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="space-medium">
+    <div class="mb-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <div class="mb60 text-center section-title">
+                    <div class="mb-5 text-center section-title">
                         <h1>Zakres usług</h1>
                         <p>Pellentesque laoreet sem nisi, eget malesuada sem aliquet sit ame ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                     </div>
@@ -82,13 +95,13 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-12 mb-5">
-                    <div class="service-block text-center">
+                    <div class="text-center">
                         <!-- service block -->
                         <div class="service-title align-middle">
                             <h2>Terapia manualna</h2>
                         </div>
                         <div class="service-img mb-2">
-                            <img src="http://hubertszulc.eu/images/medium3.jpg" alt="" class="img-responsive">
+                            <img src="http://hubertszulc.eu/images/medium3.jpg" alt="" class="img-responsive" width="100%">
                         </div>
                         <div class="service-content text-center">
                             <p>Terapia manualna w bólach kręgosłupa, następstwach urazów narządu ruchu, operacjach, wadach postawy</p>
@@ -105,7 +118,7 @@
                         </div>
                         <div class="service-img mb-2">
                             <!-- service img -->
-                            <img src="http://hubertszulc.eu/images/medium2.jpg" alt="" class="img-responsive">
+                            <img src="http://hubertszulc.eu/images/medium2.jpg" alt="" class="img-responsive" width="100%">
                         </div>
                         <!-- service img -->
                         <div class="service-content">
@@ -125,7 +138,7 @@
                         </div>
                         <div class="service-img mb-2">
                             <!-- service img -->
-                            <a href="#"><img src="http://hubertszulc.eu/images/medium.jpg" alt="" class="img-responsive"></a>
+                            <a href="#"><img src="http://hubertszulc.eu/images/medium.jpg" alt="" class="img-responsive" width="100%"></a>
                         </div>
                         <!-- service img -->
                         <div class="service-content text-center">
@@ -143,11 +156,11 @@
     <!-- /.call to action -->
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-12">
+            <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-12">
                 <div class="section-title mb-3 text-center">
                     <!-- section title start-->
-                    <h1>Fizjoterapeuci</h1>
-                    <p>Zapraszamy do kontaktu telefonicznego z wybranym Fizjoterapeutą!</p>
+                    <h1>Twój Fizjoterapeuta</h1>
+                    <p>Zapraszam do kontaktu telefonicznego!</p>
                 </div>
                 <!-- /.section title end-->
             </div>
@@ -156,18 +169,17 @@
             <div class="col-sm-6 col-12 mb-5">
                 <div class="team-block">
                     <!-- team block start-->
-                    <div class="team-img text-center"><img width="262" src="images/team-1.jpeg"></div>
+                    <div class="team-img text-center"><img width="262" src="img/team-1.jpeg"></div>
                     <div class="team-content">
-                        <h2 class="team-title">Hubert Szulc</h2>
-                        <div class="team-meta mb-2"><span class="team-designation">Specjalista rehabilitacji ruchowej</span></div>
-                        <a href="tel:+48 603 774 669" class="btn btn-default">603 774 669</a>
+                        <h2 class="team-title text-center">Hubert Szulc</h2>
+                        <div class="team-meta mb-2 text-center"><span class="team-designation">Specjalista rehabilitacji ruchowej</span></div>
+                        <a href="tel:+48 603 774 669" class="btn btn-default">+48 603 774 669</a>
                     </div>
                 </div>
                 <!-- team block end -->
             </div>
-            <div class="col-sm-6 col-12 mb-5">
+            <!-- <div class="col-sm-6 col-12 mb-5">
                 <div class="team-block">
-                    <!-- team block start-->
                     <div class="team-img">
                         <img src="images/team-2.jpg">
                     </div>
@@ -177,8 +189,7 @@
                         <a href="tel:+48 600 378 724" class="btn btn-default">600 378 724</a>
                     </div>
                 </div>
-                <!-- team block end -->
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="footer">
@@ -209,7 +220,7 @@
                         <h2 class="widget-title">Kontakt</h2>
                         <ul class="listnone contact">
                             <li><a href="tel:+48 603 774 669"><i class="fa fa-phone align-center"></i>603 774 669 (mgr Hubert Szulc)</a></li>
-                            <li><a href="tel:+48 603 774 669"><i class="fa fa-phone"></i>600 378 724 (mgr Agnieszka Minta-Szulc)</a></li>
+                            <!-- <li><a href="tel:+48 603 774 669"><i class="fa fa-phone"></i>600 378 724 (mgr Agnieszka Minta-Szulc)</a></li> -->
                             <li><a href="https://www.facebook.com/p/Gabinet-fizjoterapii-i-terapii-manualnej-Hubert-Szulc-100054239390979/"><i class="fa fa-facebook"></i>Facebook</a></li>
                         </ul>
                     </div>
@@ -231,6 +242,10 @@
 
     <script src="js/jquery.sticky.js"></script>
     <script src="js/sticky-header.js"></script>
+
+    <script>
+		var nav = responsiveNav(".nav-collapse");
+	</script>
 </body>
 
 </html>

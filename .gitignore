@@ -4,3 +4,5 @@
 *.scss.map
 
 node_modules
+
+example
