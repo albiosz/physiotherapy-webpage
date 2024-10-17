@@ -104,7 +104,22 @@ a:hover {
   text-transform: uppercase;
 }
 
-.header-top {
+button {
+  background-color: #0eb769;
+  margin: 0;
+  border: 0;
+  padding: 15px 25px;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+button a {
+  color: #ffffff;
+}
+
+header {
   background-color: #0eb769;
   font-size: 15px;
   padding-top: 11px;
@@ -113,11 +128,11 @@ a:hover {
   color: #fff;
   font-weight: 500;
 }
-.header-top a {
+header a {
   color: #fff;
 }
 
-header {
+nav {
   background-color: #fff;
   z-index: 9999;
   position: relative;
@@ -164,6 +179,9 @@ nav .logo {
   text-align: center;
   margin: auto;
 }
+nav .logo img {
+  max-height: 65px;
+}
 @media screen and (min-width: 992px) {
   nav .logo {
     text-align: start;
@@ -173,31 +191,41 @@ nav .logo {
 .hero-section {
   margin-bottom: 60px;
 }
+.hero-section .hero-img {
+  width: 324.83px;
+}
+.hero-section img {
+  height: 460px;
+}
 
 .hero-text {
   font-family: "Raleway", sans-serif;
   text-align: center;
   color: #2d3436;
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .hero-text p {
   margin-bottom: 10px;
 }
-
-.small {
+.hero-text .small {
   font-size: 24px;
   font-weight: 400;
 }
-
-.medium {
-  font-size: 36px;
+.hero-text .medium {
+  font-size: 34px;
   font-weight: 600;
 }
-
-.large {
-  font-size: 48px;
+.hero-text .large {
+  font-size: 44px;
   font-weight: 700;
   color: #27ae60;
+}
+.hero-text .description {
+  text-align: justify;
+}
+.hero-text button {
+  display: inline;
 }
 
 .service-title h2 {
@@ -223,8 +251,12 @@ nav .logo {
 .footer {
   background-color: #262928;
   padding-top: 30px;
-  padding-bottom: 30px;
   font-size: large;
+}
+@media screen and (min-width: 768px) {
+  .footer-adress {
+    margin-right: 40px;
+  }
 }
 
 .footer-widget {

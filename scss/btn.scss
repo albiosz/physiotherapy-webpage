@@ -10,3 +10,19 @@
   font-weight: 500;
   text-transform: uppercase;
 }
+
+button {
+  background-color: #0eb769;
+  margin: 0;
+  border: 0;
+  padding: 15px 25px;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  a {
+    color: #ffffff;
+  }
+}

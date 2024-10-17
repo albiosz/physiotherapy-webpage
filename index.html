@@ -6,10 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Gabinet Terapii Kręgosłupa - Hubert Szulc">
-    <meta name="keywords" content="">
-    <title>Hubert Szulc - Fizjoterapia</title>
-    
     <!-- dependencies -->
     
     <!-- Bootstrap -->
@@ -20,14 +16,12 @@
     <!-- <link href="css/dependencies/font-awesome.min.css" rel="stylesheet"> -->
     <script src="https://kit.fontawesome.com/c0f6372ea1.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="dependencies/responsive-nav.js/responsive-nav.css">
-	<script src="dependencies/responsive-nav.js/responsive-nav.js"></script>
-
-
-    <!-- Style -->
     <link href="css/style.css" rel="stylesheet">
-    <!-- <link href="css/original-style.css" rel="stylesheet">  -->
-    <link href="css/my.css" rel="stylesheet">
+
+    <meta name="description" content="Gabinet Terapii Kręgosłupa - Hubert Szulc">
+    <meta name="keywords" content="">
+    <title>Hubert Szulc - Fizjoterapia</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -37,13 +31,14 @@
 </head>
  
 <body>
-    <div class="header-top">
+    <header>
         <div class="container">
             <div class="row">
-                <div class="col-8">
-                    <!-- Gabinet fizjoterapii i terapii manualnej  -->
+                <div class="col-6">
+                    Adres: <br>
+                    ul. Zakładowa 8/3, 09-500 Gostynin
                 </div>
-                <div class="top-text text-end col-4">
+                <div class="top-text text-end col-6">
                     <span class="text-block call-block">
                         Rejestracja telefoniczna: <br>
                         <a class="call-no" href="tel:+48 603 774 669"><i class="fa fa-phone"></i> +48 603 774 669</a>
@@ -51,179 +46,176 @@
                 </div>
             </div>
         </div>
-    </div>
-    <header class="container">
-        <nav class="row">
-            <div class="col-12 col-lg-5 col-xl-4 logo">
-                <a href="#"><img src="img/logo.png" alt="" height="65px"></a>
+    </header>
+    <nav class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 logo">
+                <a href="#"><img class="img-fluid" src="img/logo-no-background.png" alt="logo - gabinet fizjoterapii"></a>
             </div>
-            <div class="col-12 col-lg-7 col-xl-8 menu">
+            <div class="col-12 col-lg-8 menu">
                 <ul class="row justify-content-center">
-                    <li class="col-6 col-md-3" ><a href="service-list.html" title="Oferta"><i class="fa-solid fa-list"></i> Oferta</a></li>
-                    <li class="col-6 col-md-3"><a href="blog-default.html" title="O mnie"><i class="fa-solid fa-user-doctor"></i> O mnie</a></li>
-                    <li class="col-6 col-md-3"><a href="contact.html" title="Kontakt"><i class="fa fa-phone"></i> Kontakt</a></li>
+                    <li class="col-6 col-md-3" ><a href="#offer" title="Oferta"><i class="fa-solid fa-list"></i> Oferta</a></li>
+                    <li class="col-6 col-md-3"><a href="#hero" title="O mnie"><i class="fa-solid fa-user-doctor"></i> O mnie</a></li>
+                    <li class="col-6 col-md-3"><a href="#contact" title="Kontakt"><i class="fa fa-phone"></i> Kontakt</a></li>
                     <li class="col-6 col-md-3"><a href="contact.html" title="Kontakt"><i class="fa-solid fa-location-dot"></i> Dojazd</a></li>
-    
                 </ul>
             </div>
-        </nav>
-    </header>
-    <div class="hero-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-5 order-md-1">
-                    <img src="./img/tata/narrow4.jpg" alt="" class="img-responsive" width="100%">
-                </div>
-                <div class="col-12 col-md-7 order-md-0 hero-text">
-                    <p class="small">Moja pasja</p>
-                    <p class="medium">Wspólna terapia</p>
-                    <p class="large">Twoje zdrowie</p>
+        </div>
+    </nav>
+    <main class="container">
+        <div id="hero" class="hero-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="order-md-1 hero-img mb-3">
+                        <img src="./img/tata/narrow4-no-bg.png" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 order-md-0 hero-text">
+                        <p class="small">Moja pasja</p>
+                        <p class="medium">Wspólna terapia</p>
+                        <p class="large">Twoje zdrowie</p>
+                        <p class="description lh-2 fst-italic"> W pracy z pacjentem staram się łączyć elementy różnych metod starając się doszukać przyczyny dolegliwości i podjąć próbę zmotywowania pacjenta do wspólnego rozwiązania problemu. </p>
+                        <button class="btn mt-3">
+                            <a href="#">Dowiedz się więcej</a>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="mb-5">
-        <div class="container">
+        <div id="offer" class="mb-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="mb-5 text-center section-title">
+                            <h1>Zakres usług</h1>
+                            <p>Pellentesque laoreet sem nisi, eget malesuada sem aliquet sit ame ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        </div>
+                        <!-- /.section title start-->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-12 mb-5">
+                        <div class="text-center">
+                            <!-- service block -->
+                            <div class="service-title align-middle">
+                                <h2>Terapia manualna</h2>
+                            </div>
+                            <div class="service-img mb-2">
+                                <img src="http://hubertszulc.eu/images/medium3.jpg" alt="" class="img-responsive" width="100%">
+                            </div>
+                            <div class="service-content text-center">
+                                <p>Terapia manualna w bólach kręgosłupa, następstwach urazów narządu ruchu, operacjach, wadach postawy</p>
+                                <a href="#" class="btn btn-default">Dowiedz się więcej</a>
+                            </div>
+                        </div>
+                        <!-- /.service block -->
+                    </div>
+                    <div class="col-md-4 col-12 mb-5">
+                        <div class="service-block text-center">
+                            <!-- service block -->
+                            <div class="service-title">
+                                <h2>Terapia neurofizjologiczna</h2>
+                            </div>
+                            <div class="service-img mb-2">
+                                <!-- service img -->
+                                <img src="http://hubertszulc.eu/images/medium2.jpg" alt="" class="img-responsive" width="100%">
+                            </div>
+                            <!-- service img -->
+                            <div class="service-content">
+                                <!-- service content -->
+                                <p>Terapia PNF, NDT-BOBATH w chorobach neurologicznych</p>
+                                <a href="#" class="btn btn-default">Dowiedz się więcej</a>
+                            </div>
+                            <!-- service content -->
+                        </div>
+                        <!-- /.service block -->
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="service-block text-center">
+                            <!-- service block -->
+                            <div class="service-title">
+                                <h2>Trening funkcjonalny</h2>
+                            </div>
+                            <div class="service-img mb-2">
+                                <!-- service img -->
+                                <a href="#"><img src="http://hubertszulc.eu/images/medium.jpg" alt="" class="img-responsive" width="100%"></a>
+                            </div>
+                            <!-- service img -->
+                            <div class="service-content text-center">
+                                <!-- service content -->
+                                <p></p>
+                                <a href="#" class="btn btn-default">Dowiedz się więcej</a>
+                            </div>
+                            <!-- service content -->
+                        </div>
+                        <!-- /.service block -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="container">
             <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="mb-5 text-center section-title">
-                        <h1>Zakres usług</h1>
-                        <p>Pellentesque laoreet sem nisi, eget malesuada sem aliquet sit ame ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-12">
+                    <div class="section-title mb-3 text-center">
+                        <!-- section title start-->
+                        <h1>Twój Fizjoterapeuta</h1>
+                        <p>Zapraszam do kontaktu telefonicznego!</p>
                     </div>
-                    <!-- /.section title start-->
+                    <!-- /.section title end-->
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-12 mb-5">
-                    <div class="text-center">
-                        <!-- service block -->
-                        <div class="service-title align-middle">
-                            <h2>Terapia manualna</h2>
-                        </div>
-                        <div class="service-img mb-2">
-                            <img src="http://hubertszulc.eu/images/medium3.jpg" alt="" class="img-responsive" width="100%">
-                        </div>
-                        <div class="service-content text-center">
-                            <p>Terapia manualna w bólach kręgosłupa, następstwach urazów narządu ruchu, operacjach, wadach postawy</p>
-                            <a href="#" class="btn btn-default">Dowiedz się więcej</a>
+            <div class="row justify-content-center">
+                <div class="col-sm-6 col-12 mb-5">
+                    <div class="team-block">
+                        <!-- team block start-->
+                        <div class="team-img text-center"><img width="262" src="img/team-1.jpeg"></div>
+                        <div class="team-content">
+                            <h2 class="team-title text-center">mgr Hubert Szulc</h2>
+                            <div class="team-meta mb-2 text-center"><span class="team-designation">Specjalista rehabilitacji ruchowej</span></div>
+                            <a href="tel:+48 603 774 669" class="btn btn-default">+48 603 774 669</a>
                         </div>
                     </div>
-                    <!-- /.service block -->
+                    <!-- team block end -->
                 </div>
-                <div class="col-md-4 col-12 mb-5">
-                    <div class="service-block text-center">
-                        <!-- service block -->
-                        <div class="service-title">
-                            <h2>Terapia neurofizjologiczna</h2>
+                <!-- <div class="col-sm-6 col-12 mb-5">
+                    <div class="team-block">
+                        <div class="team-img">
+                            <img src="images/team-2.jpg">
                         </div>
-                        <div class="service-img mb-2">
-                            <!-- service img -->
-                            <img src="http://hubertszulc.eu/images/medium2.jpg" alt="" class="img-responsive" width="100%">
+                        <div class="team-content">
+                            <h2 class="team-title">Agnieszka Minta-Szulc</h2>
+                            <div class="team-meta mb-2"><span class="team-designation">Specjalistka rehabilitacji ruchowej</span></div>
+                            <a href="tel:+48 600 378 724" class="btn btn-default">600 378 724</a>
                         </div>
-                        <!-- service img -->
-                        <div class="service-content">
-                            <!-- service content -->
-                            <p>Terapia PNF, NDT-BOBATH w chorobach neurologicznych</p>
-                            <a href="#" class="btn btn-default">Dowiedz się więcej</a>
-                        </div>
-                        <!-- service content -->
                     </div>
-                    <!-- /.service block -->
-                </div>
-                <div class="col-md-4 col-12">
-                    <div class="service-block text-center">
-                        <!-- service block -->
-                        <div class="service-title">
-                            <h2>Trening funkcjonalny</h2>
-                        </div>
-                        <div class="service-img mb-2">
-                            <!-- service img -->
-                            <a href="#"><img src="http://hubertszulc.eu/images/medium.jpg" alt="" class="img-responsive" width="100%"></a>
-                        </div>
-                        <!-- service img -->
-                        <div class="service-content text-center">
-                            <!-- service content -->
-                            <p></p>
-                            <a href="#" class="btn btn-default">Dowiedz się więcej</a>
-                        </div>
-                        <!-- service content -->
-                    </div>
-                    <!-- /.service block -->
-                </div>
+                </div> -->
             </div>
         </div>
-    </div>
-    <!-- /.call to action -->
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-12">
-                <div class="section-title mb-3 text-center">
-                    <!-- section title start-->
-                    <h1>Twój Fizjoterapeuta</h1>
-                    <p>Zapraszam do kontaktu telefonicznego!</p>
-                </div>
-                <!-- /.section title end-->
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-sm-6 col-12 mb-5">
-                <div class="team-block">
-                    <!-- team block start-->
-                    <div class="team-img text-center"><img width="262" src="img/team-1.jpeg"></div>
-                    <div class="team-content">
-                        <h2 class="team-title text-center">Hubert Szulc</h2>
-                        <div class="team-meta mb-2 text-center"><span class="team-designation">Specjalista rehabilitacji ruchowej</span></div>
-                        <a href="tel:+48 603 774 669" class="btn btn-default">+48 603 774 669</a>
-                    </div>
-                </div>
-                <!-- team block end -->
-            </div>
-            <!-- <div class="col-sm-6 col-12 mb-5">
-                <div class="team-block">
-                    <div class="team-img">
-                        <img src="images/team-2.jpg">
-                    </div>
-                    <div class="team-content">
-                        <h2 class="team-title">Agnieszka Minta-Szulc</h2>
-                        <div class="team-meta mb-2"><span class="team-designation">Specjalistka rehabilitacji ruchowej</span></div>
-                        <a href="tel:+48 600 378 724" class="btn btn-default">600 378 724</a>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-    </div>
+    </main>
     <div class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-widget mb-4">
-                        <h2 class="widget-title">
-                            <span class="align-top"><i class="fa fa-map-marker"></i></span>
-                            Adres
-                        </h2>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-auto">
-                                    ul. Zakładowa 8/3 <br>
-                                    09-500 Gostynin
-                                </div>
-                                <div class="col-auto">
-                                    <a class="btn btn-default" href="https://maps.app.goo.gl/jeUwv7dW5UTTEMCb7" target="_blank">
-                                        Otwórz w mapach Google 
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-auto mb-4 footer-widget footer-adress">
+                    <h2 class="widget-title">
+                        <span class="align-top"><i class="fa fa-map-marker"></i></span>
+                        Adres
+                    </h2>
+                    <div class="col-auto">
+                        ul. Zakładowa 8/3 <br>
+                        09-500 Gostynin
                     </div>
-                    <div class="footer-widget footer-social">
-                        <h2 class="widget-title">Kontakt</h2>
-                        <ul class="listnone contact">
-                            <li><a href="tel:+48 603 774 669"><i class="fa fa-phone align-center"></i>603 774 669 (mgr Hubert Szulc)</a></li>
-                            <!-- <li><a href="tel:+48 603 774 669"><i class="fa fa-phone"></i>600 378 724 (mgr Agnieszka Minta-Szulc)</a></li> -->
-                            <li><a href="https://www.facebook.com/p/Gabinet-fizjoterapii-i-terapii-manualnej-Hubert-Szulc-100054239390979/"><i class="fa fa-facebook"></i>Facebook</a></li>
-                        </ul>
+                    <div class="col-auto">
+                        <a class="btn btn-default" href="https://maps.app.goo.gl/jeUwv7dW5UTTEMCb7" target="_blank">
+                            Otwórz w mapach Google 
+                        </a>
                     </div>
+                </div>
+                <div class="col-12 col-md-auto footer-widget footer-social">
+                    <h2 class="widget-title">Kontakt</h2>
+                    <ul class="listnone contact">
+                        <li><a href="tel:+48 603 774 669"><i class="fa fa-phone align-center"></i>+48 603 774 669</a></li>
+                        <!-- <li><a href="tel:+48 603 774 669"><i class="fa fa-phone"></i>600 378 724 (mgr Agnieszka Minta-Szulc)</a></li> -->
+                        <li><a href="https://www.facebook.com/p/Gabinet-fizjoterapii-i-terapii-manualnej-Hubert-Szulc-100054239390979/"><i class="fa fa-facebook"></i>Facebook</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -243,9 +235,6 @@
     <script src="js/jquery.sticky.js"></script>
     <script src="js/sticky-header.js"></script>
 
-    <script>
-		var nav = responsiveNav(".nav-collapse");
-	</script>
 </body>
 
 </html>

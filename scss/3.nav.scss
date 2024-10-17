@@ -1,4 +1,6 @@
-header {
+@import "0.vars";
+
+nav {
   background-color: #fff;
   z-index: 9999;
   position: relative;
@@ -46,7 +48,11 @@ nav .logo {
   text-align: center;
   margin: auto;
 
-  @media screen and (min-width: 992px) {
+  img {
+    max-height: 65px;
+  }
+
+  @media screen and (min-width: $lg) {
     text-align: start;
   }
 }

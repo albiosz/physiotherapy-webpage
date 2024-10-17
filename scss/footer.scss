@@ -1,8 +1,15 @@
+@import "0.vars";
+
 .footer {
   background-color: #262928;
   padding-top: 30px;
-  padding-bottom: 30px;
   font-size: large;
+
+  @media screen and (min-width: $md) {
+    &-adress {
+      margin-right: 40px;
+    }
+  }
 }
 
 .footer-widget {

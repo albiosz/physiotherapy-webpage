@@ -1,3 +1,5 @@
+@import "../0.vars";
+
 .service-title h2 {
   margin: auto;
 }
@@ -5,14 +7,14 @@
 .service-title {
   font-size: 20px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $md) {
     height: 80px;
     display: flex;
   }
 }
 
 .service-content p {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $md) {
     min-height: 100px;
   }
 }
