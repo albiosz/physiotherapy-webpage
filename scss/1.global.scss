@@ -64,17 +64,10 @@ ol {
 }
 
 a {
-  color: #0eb769;
   text-decoration: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-}
-
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: #019852;
 }
 
 .listnone {

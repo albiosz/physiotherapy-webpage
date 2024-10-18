@@ -61,17 +61,10 @@ ol {
 }
 
 a {
-  color: #0eb769;
   text-decoration: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-}
-
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: #019852;
 }
 
 .listnone {
@@ -91,32 +84,26 @@ a:hover {
   margin-bottom: 0px;
 }
 
-.btn {
-  color: #ffffff;
-  background-color: #0eb769;
-  margin: 0;
-  border: 0;
-  padding: 15px 25px;
-  display: block;
-  font-size: 14px;
-  text-decoration: none;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
 button {
   background-color: #0eb769;
-  margin: 0;
+  color: #ffffff;
+  margin: 0 auto;
   border: 0;
   padding: 15px 25px;
-  display: block;
   font-size: 14px;
   text-decoration: none;
   font-weight: 500;
   text-transform: uppercase;
+  border-radius: 0.375rem;
+  display: block;
+  font-family: "Raleway", sans-serif;
 }
 button a {
   color: #ffffff;
+}
+button:hover {
+  transition: background-color 0.2s ease;
+  background-color: #146c43;
 }
 
 header {
@@ -174,6 +161,10 @@ nav ul li {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+nav ul li a:hover {
+  transition: background-color 0.2s ease;
+  background-color: #146c43;
+}
 
 nav .logo {
   text-align: center;
@@ -188,9 +179,6 @@ nav .logo img {
   }
 }
 
-.hero-section {
-  margin-bottom: 60px;
-}
 .hero-section .hero-img {
   width: 324.83px;
 }
@@ -200,7 +188,6 @@ nav .logo img {
 
 .hero-text {
   font-family: "Raleway", sans-serif;
-  text-align: center;
   color: #2d3436;
   margin-top: auto;
   margin-bottom: auto;
@@ -224,9 +211,6 @@ nav .logo img {
 .hero-text .description {
   text-align: justify;
 }
-.hero-text button {
-  display: inline;
-}
 
 .service-title h2 {
   margin: auto;
@@ -244,7 +228,18 @@ nav .logo img {
 
 @media screen and (min-width: 768px) {
   .service-content p {
-    min-height: 100px;
+    margin-bottom: 0.75rem;
+    min-height: 90px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .service-content p {
+    min-height: 70px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .service-content p {
+    min-height: 50px;
   }
 }
 
