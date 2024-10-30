@@ -297,4 +297,8 @@ nav .logo img {
   line-height: 24px;
 }
 
+article .about-me {
+  text-align: justify;
+}
+
 /*# sourceMappingURL=style.css.map */

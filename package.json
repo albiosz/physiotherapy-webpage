@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm run scss & npm run auto-reload && fg",
-    "auto-reload": "browser-sync start --server --directory --files \"**/*\"",
+    "auto-reload": "browser-sync start --server --files \"**/*\"",
     "scss": "sass --watch scss/0.main.scss css/style.css && fg"
   },
   "author": "",
