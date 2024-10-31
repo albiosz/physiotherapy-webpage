@@ -1,5 +1,5 @@
 body {
-  font-size: 15px;
+  font-size: 1rem;
   background-color: #fff;
   color: #6f6f6f;
   font-family: "Roboto", sans-serif;
@@ -226,18 +226,23 @@ nav .logo img {
   }
 }
 
+.service-img img {
+  width: 100%;
+  max-width: 400px;
+}
+
 @media screen and (min-width: 768px) {
   .service-content p {
     margin-bottom: 0.75rem;
-    min-height: 90px;
+    min-height: 96px;
   }
 }
 @media screen and (min-width: 992px) {
   .service-content p {
-    min-height: 70px;
+    min-height: 72px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .service-content p {
     min-height: 50px;
   }
@@ -299,6 +304,19 @@ nav .logo img {
 
 article .about-me {
   text-align: justify;
+}
+
+.service img {
+  width: 100%;
+  max-width: 400px;
+}
+@media screen and (min-width: 768px) {
+  .service img {
+    width: 400px;
+  }
+}
+.service li {
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

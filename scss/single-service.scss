@@ -1,0 +1,14 @@
+.service {
+  img {
+    width: 100%;
+    max-width: 400px;
+
+    @media screen and (min-width: $md) {
+      width: 400px;
+    }
+  }
+
+  li {
+    margin-top: 1rem;
+  }
+}

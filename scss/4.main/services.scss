@@ -13,17 +13,24 @@
   }
 }
 
+.service-img {
+  img {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
 .service-content p {
   @media screen and (min-width: $md) {
     margin-bottom: 0.75rem;
-    min-height: 90px;
+    min-height: 96px;
   }
 
   @media screen and (min-width: $lg) {
-    min-height: 70px;
+    min-height: 72px;
   }
 
-  @media screen and (min-width: $xl) {
+  @media screen and (min-width: $xxl) {
     min-height: 50px;
   }
 }
