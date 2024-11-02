@@ -218,38 +218,28 @@ nav .logo img {
   text-align: justify;
 }
 
-.service-title h2 {
-  margin: auto;
-}
-
-.service-title {
-  font-size: 20px;
-}
 @media screen and (min-width: 768px) {
-  .service-title {
+  .service-small h2 {
     height: 80px;
-    display: flex;
   }
 }
-
-.service-img img {
+.service-small img {
   width: 100%;
   max-width: 400px;
 }
-
 @media screen and (min-width: 768px) {
-  .service-content p {
+  .service-small p {
     margin-bottom: 0.75rem;
     min-height: 96px;
   }
 }
 @media screen and (min-width: 992px) {
-  .service-content p {
+  .service-small p {
     min-height: 72px;
   }
 }
 @media screen and (min-width: 1400px) {
-  .service-content p {
+  .service-small p {
     min-height: 50px;
   }
 }
