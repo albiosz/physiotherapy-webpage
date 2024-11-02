@@ -25,11 +25,16 @@ https://www.fizjopraktyka.waw.pl/
 
 
 # TODO
-- [ ] Lorem Ipsum von der Hauptseite entfernen
-- [ ] Informacje od dojeździe
+- [x] Lorem Ipsum von der Hauptseite entfernen
+- [v2] Informacje od dojeździe
   - [ ] możliwość parkowania
   - [ ] figurka przed zakrętem
   - [ ] wjazd na osiedle?
-- [ ] nowy tekst na stronach o zabiegach
+- [x] nowy tekst na stronach o zabiegach
 - [ ] dyplomy
-- [ ] cena zabiegów
+- [v2] cena zabiegów ?
+
+
+# Przed powieszeniem
+- [x] lorem ipsum
+- [x] znaki zapytania
