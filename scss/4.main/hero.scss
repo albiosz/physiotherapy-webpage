@@ -5,35 +5,35 @@
     display: block;
     padding: 0;
   }
-}
 
-.hero-text {
-  font-family: "Raleway", sans-serif;
-  color: #2d3436;
-  margin-top: auto;
-  margin-bottom: auto;
+  section {
+    font-family: "Raleway", sans-serif;
+    color: #2d3436;
+    margin-top: auto;
+    margin-bottom: auto;
 
-  p {
-    margin-bottom: 10px;
-  }
+    p {
+      margin-bottom: 10px;
+    }
 
-  .small {
-    font-size: 24px;
-    font-weight: 400;
-  }
+    .small {
+      font-size: 24px;
+      font-weight: 400;
+    }
 
-  .medium {
-    font-size: 34px;
-    font-weight: 600;
-  }
+    .medium {
+      font-size: 34px;
+      font-weight: 600;
+    }
 
-  .large {
-    font-size: 44px;
-    font-weight: 700;
-    color: #27ae60;
-  }
+    .large {
+      font-size: 44px;
+      font-weight: 700;
+      color: #27ae60;
+    }
 
-  .description {
-    text-align: justify;
+    .description {
+      text-align: justify;
+    }
   }
 }

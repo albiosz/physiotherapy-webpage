@@ -192,30 +192,29 @@ nav .logo img {
   display: block;
   padding: 0;
 }
-
-.hero-text {
+.hero section {
   font-family: "Raleway", sans-serif;
   color: #2d3436;
   margin-top: auto;
   margin-bottom: auto;
 }
-.hero-text p {
+.hero section p {
   margin-bottom: 10px;
 }
-.hero-text .small {
+.hero section .small {
   font-size: 24px;
   font-weight: 400;
 }
-.hero-text .medium {
+.hero section .medium {
   font-size: 34px;
   font-weight: 600;
 }
-.hero-text .large {
+.hero section .large {
   font-size: 44px;
   font-weight: 700;
   color: #27ae60;
 }
-.hero-text .description {
+.hero section .description {
   text-align: justify;
 }
 
