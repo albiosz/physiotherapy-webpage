@@ -32,3 +32,4 @@ https://www.fizjopraktyka.waw.pl/
   - [ ] wjazd na osiedle?
 - [ ] nowy tekst na stronach o zabiegach
 - [ ] dyplomy
+- [ ] cena zabiegów
