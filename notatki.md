@@ -22,3 +22,13 @@ https://www.fizjopraktyka.waw.pl/
 
 # Logo
 - [looka](https://looka.com/editor/200183503)
+
+
+# TODO
+- [ ] Lorem Ipsum von der Hauptseite entfernen
+- [ ] Informacje od dojeździe
+  - [ ] możliwość parkowania
+  - [ ] figurka przed zakrętem
+  - [ ] wjazd na osiedle?
+- [ ] nowy tekst na stronach o zabiegach
+- [ ] dyplomy

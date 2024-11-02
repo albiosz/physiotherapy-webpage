@@ -3,6 +3,13 @@ body {
   background-color: #fff;
   color: #6f6f6f;
   font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 h1,
@@ -317,6 +324,10 @@ article .about-me {
 }
 .service li {
   margin-top: 1rem;
+}
+
+.map {
+  min-height: 450px;
 }
 
 /*# sourceMappingURL=style.css.map */
