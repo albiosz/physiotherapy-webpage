@@ -1,10 +1,9 @@
-.hero-section {
-  .hero-img {
-    width: 324.83px;
-  }
-
+.hero {
   img {
-    height: 460px;
+    max-width: 324.83px;
+    max-height: 460px;
+    display: block;
+    padding: 0;
   }
 }
 

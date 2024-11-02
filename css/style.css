@@ -186,11 +186,11 @@ nav .logo img {
   }
 }
 
-.hero-section .hero-img {
-  width: 324.83px;
-}
-.hero-section img {
-  height: 460px;
+.hero img {
+  max-width: 324.83px;
+  max-height: 460px;
+  display: block;
+  padding: 0;
 }
 
 .hero-text {
@@ -309,8 +309,14 @@ nav .logo img {
   line-height: 24px;
 }
 
-article .about-me {
+.about-me {
   text-align: justify;
+}
+.about-me img {
+  max-width: 324.83px;
+  max-height: 460px;
+  display: block;
+  padding: 0;
 }
 
 .service img {
