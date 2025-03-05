@@ -18,7 +18,8 @@
 
 
 # Przykłady Stron
-https://www.fizjopraktyka.waw.pl/
+- https://easetemplate.com/free-website-templates/theraphy/index.html
+- https://www.fizjopraktyka.waw.pl/
 
 # Logo
 - [looka](https://looka.com/editor/200183503)
@@ -38,3 +39,18 @@ https://www.fizjopraktyka.waw.pl/
 # Przed powieszeniem
 - [x] lorem ipsum
 - [x] znaki zapytania
+
+
+# Alte IP-Adresse
+- 46.242.233.52
+- 2a02:25a9:20:71a::1
+
+- ns6.az.pl.
+- ns7.az.pl.
+- ns8.az.pl.
+
+- was ist NAT?
+
+# DNS-Einträge überprüfen
+- `nslookup hubertszulc.eu 217.160.80.244` <-- DNS-Server von home.pl
+- `nslookup hubertszulc.eu 1.1.1.1` <-- Cloudflare DNS-Server
