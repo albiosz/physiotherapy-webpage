@@ -35,7 +35,7 @@ jobs:
           username: ${{ secrets.USER_NAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY_EC2 }}
           script: |
-            [ ! -d ~/physiotherapy-webpage ] && git clone git@github.com:${{ github.repository }}.git
+            [ ! -d ~/physiotherapy-webpage ] && git clone https://github.com/albiosz/physiotherapy-webpage.git
             cd ~/physiotherapy-webpage
             git fetch
             git checkout main
