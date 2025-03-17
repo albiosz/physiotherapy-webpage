@@ -23,3 +23,21 @@ jobs:
             git checkout main
             git reset --hard origin/main
             git pull
+
+  deploy-ec2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ vars.HOSTNAME_EC2 }}
+          port: ${{ vars.PORT_EC2 }}
+          username: ${{ secrets.USER_NAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY_EC2 }}
+          script: |
+            [ ! -d ~/physiotherapy-webpage ] && git clone git@github.com:${{ github.repository }}.git
+            cd ~/physiotherapy-webpage
+            git fetch
+            git checkout main
+            git reset --hard origin/main
+            git pull
