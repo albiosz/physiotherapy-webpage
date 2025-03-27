@@ -24,20 +24,18 @@ jobs:
             git reset --hard origin/main
             git pull
 
-  deploy-ec2:
+  deploy-s3:
     runs-on: ubuntu-latest
     steps:
-      - name: deploy
-        uses: appleboy/ssh-action@master
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
         with:
-          host: ${{ vars.HOSTNAME_EC2 }}
-          port: ${{ vars.PORT_EC2 }}
-          username: ${{ secrets.USER_NAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY_EC2 }}
-          script: |
-            [ ! -d ~/physiotherapy-webpage ] && git clone https://github.com/albiosz/physiotherapy-webpage.git
-            cd ~/physiotherapy-webpage
-            git fetch
-            git checkout main
-            git reset --hard origin/main
-            git pull
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-central-1
+
+      - name: Deploy to S3
+        run: aws s3 sync . s3://physiotherapy-webpage --delete --exclude ".github/*" --exclude ".git/*" --exclude ".gitignore" --exclude "example" --exclude "README.md" --exclude "package.json" --exclude "package-lock.json" --exclude "notes.md" --exclude "node_modules/*" --exclude "design.md" --exclude "scss/*"

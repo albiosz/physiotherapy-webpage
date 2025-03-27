@@ -15,7 +15,7 @@ const data = {
     {
       title: "Trening funkcjonalny",
       img: "/img/services/trening-funkcjonalny.jpg",
-      text: "",
+      text: "Trening funkcjonalny w dysfunkcjach narządu ruchu, po urazach, operacjach, wadach postawy",
       href: "/trening-funkcjonalny"
     },
   ]
