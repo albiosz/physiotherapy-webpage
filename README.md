@@ -22,13 +22,16 @@ The webpage is live at [hubertszulc.eu](https://hubertszulc.eu/).
 4. `npm run dev`
 5. The webpage should automatically open in the browser (default: `localhost:3000`)
 
-### Deployment Features:
+### Local Development Features:
 - SCSS is automatically compiled to CSS
 - Live reloading on file changes
+
+# Deployment
+- **AWS** - S3 + Cloud Front (CDN) 
 
 # 🛠️ Tech Stack
 - **SCSS** - Modular structure for style files
 - **Bootstrap** - Responsive Design
 - **Mustache.js** - Template system to eliminate redundant HTML
-- **GitHub Actions** - Automates deployment via SSH to a VServer on every commit
-- **Nginx** - Serving static files
+- **GitHub Actions** - Automates deployment to AWS S3 on every commit
+
