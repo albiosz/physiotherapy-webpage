@@ -244,57 +244,45 @@ nav .logo img {
   }
 }
 
-.footer {
+footer {
   background-color: #262928;
   padding-top: 30px;
   font-size: large;
 }
+
 @media screen and (min-width: 768px) {
   .footer-adress {
     margin-right: 40px;
   }
 }
-
 .footer-widget {
   color: #fff;
 }
 .footer-widget a {
   color: #fff;
 }
-
 .footer-widget h2 {
   color: #fff;
   font-weight: 600;
 }
-
-.widget-title {
+.footer-widget-title {
   margin-bottom: 10px;
 }
-
 .footer-social ul li a i {
   padding-right: 10px;
   width: 30px;
 }
-
-.footer .contact li {
+.footer-contact li {
   margin-bottom: 15px;
 }
 
-.tiny-footer {
-  background-color: #262928;
-  padding-top: 9px;
-  padding-bottom: 9px;
+.footer-copyright {
   font-size: 12px;
-  color: #56575e;
-  text-align: left;
-  text-transform: uppercase;
+  color: #808a86;
   text-align: center;
-}
-
-.copyright-content {
+  text-transform: uppercase;
   border-top: 1px solid #424544;
   padding: 12px;
-  color: #676f6c;
   line-height: 24px;
 }
 

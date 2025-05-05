@@ -1,39 +1,41 @@
 @import "../0.vars";
 
-.footer {
+footer {
   background-color: #262928;
   padding-top: 30px;
   font-size: large;
+}
 
+.footer {
   @media screen and (min-width: $md) {
     &-adress {
       margin-right: 40px;
     }
   }
-}
 
-.footer-widget {
-  color: #fff;
-
-  a {
+  &-widget {
     color: #fff;
+
+    a {
+      color: #fff;
+    }
   }
-}
 
-.footer-widget h2 {
-  color: #fff;
-  font-weight: 600;
-}
+  &-widget h2 {
+    color: #fff;
+    font-weight: 600;
+  }
 
-.widget-title {
-  margin-bottom: 10px;
-}
+  &-widget-title {
+    margin-bottom: 10px;
+  }
 
-.footer-social ul li a i {
-  padding-right: 10px;
-  width: 30px;
-}
+  &-social ul li a i {
+    padding-right: 10px;
+    width: 30px;
+  }
 
-.footer .contact li {
-  margin-bottom: 15px;
+  &-contact li {
+    margin-bottom: 15px;
+  }
 }
