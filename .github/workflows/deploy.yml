@@ -19,4 +19,4 @@ jobs:
           aws-region: eu-central-1
 
       - name: Deploy to S3
-        run: aws s3 sync . s3://physiotherapy-webpage --delete --exclude ".github/*" --exclude ".git/*" --exclude ".gitignore" --exclude "example" --exclude "README.md" --exclude "package.json" --exclude "package-lock.json" --exclude "notes.md" --exclude "node_modules/*" --exclude "design.md" --exclude "scss/*"
+        run: aws s3 sync . s3://hubertszulc.eu --delete --exclude ".github/*" --exclude ".git/*" --exclude ".gitignore" --exclude "example" --exclude "README.md" --exclude "package.json" --exclude "package-lock.json" --exclude "notes.md" --exclude "node_modules/*" --exclude "design.md" --exclude "scss/*" --exclude "terraform/*"
